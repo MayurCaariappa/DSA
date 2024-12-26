@@ -6,7 +6,7 @@ public class GoodPair {
     //Output: return 1 if good pair exits, else return 0
     public static void main(String[] args) {
         int[] a = {1, 2, 3, 4, 5};
-        int b = 23;
+        int b = 2;
 
         System.out.println(goodPair(a, b));
     }
