@@ -7,10 +7,10 @@ public class ReverseRange {
     //Reverse the elements of the Array A within the given inclusive range [B,C]
     public static void main(String[] args) {
         int[] a = {1, 2, 3, 4};
-        int b = 2;
+        int b = 0;
         int c = 3;
 
-        reverseRangeNumbers(a, b, c);
+//        reverseRangeNumbers(a, b, c);
         reverseRangeIndices(a, b, c);
     }
 
@@ -28,14 +28,9 @@ public class ReverseRange {
     }
 
     public static void reverseRangeIndices(int[] a, int b, int c) {
-        while (b < c) {
             int temp = a[b];
             a[b] = a[c];
             a[c] = temp;
-
-            b++;
-            c--;
-        }
         System.out.println(Arrays.toString(a));
     }
 }
