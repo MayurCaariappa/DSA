@@ -16,7 +16,7 @@ public class CountPrimes {
         return count;
     }
 
-        public boolean isPrime(int num){
+        public static boolean isPrime(int num){
         int count =0;
         for(int i=1;i*i<=num;i++){
             if(num%i==0){
