@@ -56,7 +56,7 @@ public class StarPattern {
             for (int k = 0; k <= i; k++) {
                 System.out.print("*");
             }
-            System.out.println("");
+            System.out.println();
         }
     }
 }
