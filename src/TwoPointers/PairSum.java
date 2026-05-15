@@ -2,6 +2,7 @@ package TwoPointers;
 
 import java.util.Arrays;
 
+// Find 2 numbers that sum to target
 public class PairSum {
     public static void main(String[] args) {
         int[] sortedArray = {2, 3, 4, 6};
